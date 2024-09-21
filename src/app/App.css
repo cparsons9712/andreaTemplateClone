@@ -1,0 +1,31 @@
+.hero{
+  font-family: "Alfa Slab One", serif;
+}
+.signature{
+  font-family: "Homemade Apple", cursive;
+}
+
+
+.link {
+  position: relative; /* Make the ::before pseudo-element relative to .link */
+  padding-bottom: 7px; /* Optional: add padding to create space for the underline */
+
+}
+
+.link::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%; /* Span the entire width of the link */
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  transform: scaleX(0); /* Initially hide the line */
+  transform-origin: left;
+  transition: transform 0.3s ease; /* Transition for smooth animation */
+}
+
+.link:hover::before {
+  transform: scaleX(1) translateZ(0);; /* Expand the underline on hover */
+}
