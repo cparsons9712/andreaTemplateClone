@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+# Andrea Portfolio Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a pixel-perfect recreation of the Andrea portfolio template hosted on Framer, built entirely with React, GSAP (GreenSock Animation Platform), and CSS. The goal of this project is to demonstrate my ability to replicate intricate designs and functionality from Framer while leveraging modern web development tools and frameworks.
 
-## Available Scripts
+## Project Overview
 
-In the project directory, you can run:
+The [Andrea Portfolio Clone](https://andreatemplate.framer.website/) is a fully responsive, interactive portfolio site that mirrors the original Framer design with absolute precision. The project emphasizes meticulous attention to detail, ensuring that every layout element, color scheme, and animation sequence is faithfully reproduced. This clone also showcases advanced front-end development techniques, focusing on user experience and performance optimization.
 
-### `npm start`
+* React is used to structure the components and manage state, allowing for scalable and maintainable code.
+* GSAP is leveraged to implement smooth, high-performance animations that bring the portfolio site to life, mimicking the dynamic transitions and effects seen in the original template.
+* CSS is employed to perfect the styling and responsiveness, ensuring that the design works seamlessly across different devices and screen sizes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This clone serves as a robust learning exercise in web animation, component-based architecture, and responsive design. By utilizing GSAP for animations and React for component logic, the project aims to achieve a seamless and engaging user experience.
 
-### `npm test`
+### Features:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Smooth animations and transitions powered by GSAP.
+* Fully responsive layout with pixel-perfect precision.
+* Interactive and dynamic portfolio components.
+* A clean, modern UI mimicking the Framer original, optimized for both desktop and mobile platforms.
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Dependencies
+This project relies on several key tools and libraries. Here's an overview of the major dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* React: A JavaScript library for building user interfaces (via create-react-app).
+* GSAP (GreenSock Animation Platform): A powerful library for animations on the web.
+* GSAP ScrollTrigger Plugin: A GSAP plugin for scroll-based animations, allowing animations to trigger during user scrolling.
+* Node.js: For package management and running the development server.
+* npm: For handling the installation of project dependencies.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Here's a more detailed list of the key libraries in this project:
+```json
+"dependencies": {
+    "react": "^18.0.0",
+    "gsap": "^3.11.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "5.0.0"
+}
+```
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To get this project up and running locally, follow these steps:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone the Repository
+    ```bash
+    git clone https://github.com/cparsons9712/andreaTemplateClone.git
+    ```
 
-## Learn More
+2. Navigate to the Project Directory
+    ```bash
+    cd andreaTemplateClone
+    ```
+3. Install Dependencies
+    ```bash
+    npm install
+    ```
+4. Run the Development Server
+    ```bash
+    npm start
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Help
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+If you run into any issues during setup or development, here are some common solutions:
 
-### Making a Progressive Web App
+* <b>Port Issues: </b> If the project doesn't start because of a port conflict, you can specify another port when running the development server:  ``` PORT=3001 npm start ```
+* <b> General Issues: </b> Other Errors: For general troubleshooting or dependency issues, try deleting node_modules and package-lock.json, then reinstall the dependencies:
+    ```bash
+    rm -rf node_modules package-lock.json
+    npm install
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Authors
 
-### Advanced Configuration
+ Christine Parsons -
+[Linkedin](https://www.linkedin.com/in/codebychristine/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Version History
 
-### Deployment
+* 0.1
+    * Initial Release
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Inspiration, code snippets, etc.
+* [awesome-readme](https://github.com/matiassingers/awesome-readme)
+* [Kağan Kurşun](https://www.framer.com/marketplace/template/andrea/)
+* [The Code Creative](https://www.youtube.com/watch?v=WEky7V490Rs)
