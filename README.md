@@ -34,10 +34,10 @@ This project relies on several key tools and libraries. Here's an overview of th
 Here's a more detailed list of the key libraries in this project:
 ```json
 "dependencies": {
-    "react": "^18.0.0",
-    "gsap": "^3.11.0",
-    "react-dom": "^18.0.0",
-    "react-scripts": "5.0.0"
+    "gsap": "^3.12.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1"
 }
 ```
 
