@@ -1,0 +1,15 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 64px;
+    color: #CBCBCB;
+    border-bottom: 1px solid #1A1A1A ;
+
+}
+
+.services > h2 {
+    font-weight: 400;
+}
