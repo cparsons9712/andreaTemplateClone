@@ -1,0 +1,31 @@
+.introduction {
+    color: #CBCBCB;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 64px;
+    border-right: 1px solid #1A1A1A ;
+    border-bottom: 1px solid #1A1A1A ;
+
+}
+
+.spacer {
+    height: 40px;
+    width: 32px;
+}
+
+.introText {
+    font-size: 18px;
+    line-height: 1.3em;
+    letter-spacing: 0em;
+    font-family: "Inter", sans-serif;
+
+}
+
+.introSig{
+    font-size: 20px;
+    letter-spacing: 0em;
+    line-height: 130%;
+    font-family: "Homemade Apple", sans-serif;
+}
