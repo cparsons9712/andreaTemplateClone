@@ -1,6 +1,6 @@
 import './workTable.css'
 import { ProjectCard } from './ProjectCard/ProjectCard'
-import { gsap } from 'gsap';
+
 
 
 export const WorkTable = () => {
