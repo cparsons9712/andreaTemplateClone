@@ -1,14 +1,15 @@
 .about {
-    position: relative;
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 96px;
-    padding: 96px 64px;
-    background-color: #080808;
-    overflow: hidden;
-    border-radius: 20px 20px 0 0;
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 96px;
+  padding: 96px 64px;
+  background-color: #080808;
+  overflow: hidden;
+  border-radius: 20px 20px 0px 0px;
+  box-sizing: border-box;
 }

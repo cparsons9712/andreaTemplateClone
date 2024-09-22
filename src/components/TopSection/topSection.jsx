@@ -8,7 +8,7 @@ export const TopSection = () => {
     return (
         <div className="backgroundTop">
             <Hero />
-            {/* <About /> */}
+            <About />
 
         </div>
 )}

@@ -1,0 +1,19 @@
+.numbersBlock{
+    color: #CBCBCB;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-items: flex-start;
+}
+
+.numberLine{
+    font-size: 80px;
+}
+
+
+
+.largeMeasure{
+    color: #BEA6E8;
+}
