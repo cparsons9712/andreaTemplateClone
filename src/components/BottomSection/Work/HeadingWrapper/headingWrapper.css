@@ -1,0 +1,60 @@
+.headingWrapper {
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    width: 100vw;
+    overflow: hidden; /* Make sure content that overflows horizontally is hidden */
+}
+
+.workHeading {
+    color: #CBCBCB;
+    font-size: 44px;
+    line-height: 1.3em;
+    white-space: nowrap; /* Prevent text from wrapping */
+    width: 100%;
+    display: flex; /* Use flex to display all span elements inline */
+    --gap: 1rem;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: var(--gap);
+}
+
+
+
+
+  .marquee {
+    gap: 30px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: var(--gap);
+  }
+
+  .marquee__content {
+
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    gap: var(--gap);
+    min-width: 100%;
+    animation: scroll 30s linear infinite;
+  }
+
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100% - var(--gap)));
+    }
+  }
+
+  .marquee__content > div{
+    padding-right: 50px;
+
+  }
