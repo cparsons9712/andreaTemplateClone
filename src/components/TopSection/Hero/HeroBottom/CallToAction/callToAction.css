@@ -1,0 +1,23 @@
+.callToAction{
+    position: relative;
+    flex: 1;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+    padding: 0px 0px 64px 20px;
+    color: #080808;
+
+}
+
+.callToAction > p {
+    position: relative;
+    max-width: 249px;
+    font-family: "Inter";
+    font-size: 18px;
+
+
+}

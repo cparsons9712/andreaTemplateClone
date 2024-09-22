@@ -1,12 +1,13 @@
 import "./App.css"
-import { Background } from "../components/Background/Background";
+import { TopSection } from "../components/TopSection/topSection";
 import { Nav } from "../components/Nav/Nav";
 
 function App() {
   return (
     <div className="App">
-      <Background />
+
       <Nav />
+      <TopSection />
 
     </div>
   );

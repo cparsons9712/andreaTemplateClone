@@ -1,0 +1,31 @@
+.heroTop {
+  position: absolute;
+  top: 110px;
+  width: 100%;
+  box-sizing: border-box;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  gap: 10;
+  padding: 0px 0px;
+
+ 
+}
+
+.andrea {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    margin-top: 0px;
+    font-family: "Alfa Slab One", sans-serif;
+    color: #080808;
+    font-size: 18.5vw; /* Dynamic scaling */
+    line-height: 1em;
+    letter-spacing: 0em;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: 400;
+  }

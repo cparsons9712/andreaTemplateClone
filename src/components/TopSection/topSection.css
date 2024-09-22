@@ -1,0 +1,16 @@
+.backgroundTop{
+    background-color: #BEA6E8;
+
+
+    position: relative;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+

@@ -9,7 +9,7 @@
 .link {
   position: relative; /* Make the ::before pseudo-element relative to .link */
   padding-bottom: 7px; /* Optional: add padding to create space for the underline */
-
+  font-family: 'Inter', sans-serif;
 }
 
 .link::before {
@@ -28,4 +28,40 @@
 
 .link:hover::before {
   transform: scaleX(1) translateZ(0);; /* Expand the underline on hover */
+}
+
+.lightButton{
+  gap: 12;
+  padding: 20px 32px;
+
+  border-radius: 50px;
+  border: 1px solid #070707;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  box-sizing: border-box;
+  color: rbg(8,8,8);
+  font-size: 16px;
+  text-align: start;
+
+
+
+}
+
+.lightButton:hover{
+  background-color: #070707;
+  color: #CBCBCB;
+}
+
+.socials{
+  color: #080808;
+  font-size: 23px;
+  letter-spacing: 0em;
+  line-height: 1.3em;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+
+
 }

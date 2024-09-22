@@ -10,14 +10,16 @@
     top: 0;
     padding: 56px 64px;
     box-sizing: border-box;
-    color: rgb(8, 8, 8)
+    color: rgb(8, 8, 8);
+    z-index: 500;
+
 }
 .navLeft{
     font-size: 25px;
     cursor: pointer;
-    line-height: 32.5px;
+
     text-align: start;
-    font-weight: 400;
+    font-weight: 390;
 
 }
 .navRight{
@@ -30,7 +32,7 @@
 .navRight > div {
     cursor: pointer;
     display: block;
-    font-size: 18px;
+    font-size: 18.5px;
 
     text-align: start;
     box-sizing: border-box;

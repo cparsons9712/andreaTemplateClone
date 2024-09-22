@@ -1,0 +1,15 @@
+.socialLinks{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    gap: 0px;
+    align-content: flex-end;
+    align-items: flex-end;
+    box-sizing: border-box;
+    justify-content: center;
+    padding: 0px 0px 40px 0px;
+    margin-right: 50px;
+
+
+}
