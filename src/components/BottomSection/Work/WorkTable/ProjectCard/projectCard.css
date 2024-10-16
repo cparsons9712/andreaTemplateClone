@@ -39,6 +39,7 @@
     bottom: 20px;
     left: 20px;
     right: 20px;
+    transition: background-color 0.3s ease;
 
 
 
@@ -81,8 +82,8 @@
   width: 100%;
   justify-self: flex-end;
   text-align: end;
-  transition: transform 0.3s ease;
-
+  transition: transform 0.5s ease, color 0.8s ease;
+  transform: translateX(0)
 
 }
 
@@ -97,6 +98,17 @@
 }
 
 .projectCard:hover .catagories{
-  text-align: start;
+  transform: translateX(-50%);
+  color: #080808;
+}
 
+.projectCard:hover .projectYear {
+  color: #080808;
+}
+.projectCard:hover .elbowArrow {
+  display: inline;
+}
+
+.elbowArrow{
+  display: none;
 }

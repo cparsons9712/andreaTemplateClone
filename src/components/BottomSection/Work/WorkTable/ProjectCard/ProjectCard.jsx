@@ -1,4 +1,5 @@
 import './projectCard.css'
+import { ArrowElbowDownRight } from '@phosphor-icons/react';
 
 export const ProjectCard = ({name, image, catagory}) => {
     const categories = Array.isArray(catagory) ? catagory : [];
@@ -14,10 +15,16 @@ export const ProjectCard = ({name, image, catagory}) => {
                 </div>
 
                 <div className="catagories">
-                    {categories.map((element, index) => (
-                        <div key={index}>{element} </div>
-                    ))}
+                    <div className='catagoryList'>
+                        {categories.map((element, index) => (
+                            <div key={index}>{element} </div>
+                        ))}
+                    </div>
                 </div>
+
+                <div className='elbowArrow'><ArrowElbowDownRight size={32} /></div>
+
+                
             </div>
 
         </div>
