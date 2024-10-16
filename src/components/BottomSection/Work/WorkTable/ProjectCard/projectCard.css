@@ -26,6 +26,7 @@
     position: relative;
     height: fit-content;
     display: flex;
+    flex-basis: 100%;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
@@ -38,16 +39,20 @@
     bottom: 20px;
     left: 20px;
     right: 20px;
+
+
+
 }
 
-.headingWrapper{
+.projectTitleWrapper{
     position: relative;
-    width: 33%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: start !important;
     gap: 8px !important;
+
 
 
 }
@@ -73,8 +78,10 @@
   letter-spacing: 0em;
   line-height: 1.3em;
   margin-bottom: 20px;
-  width: 70%;
+  width: 100%;
   justify-self: flex-end;
+  text-align: end;
+  transition: transform 0.3s ease;
 
 
 }
@@ -86,4 +93,10 @@
 
 .projectCard:hover > .projectInfo{
   background-color: #BEA6E8;
+
+}
+
+.projectCard:hover .catagories{
+  text-align: start;
+
 }
