@@ -1,7 +1,7 @@
 .heroImage {
     position: relative;
     flex: 0 0 33%;
-    
+
     min-width: 490px;
     display: flex;
     flex-direction: row;
