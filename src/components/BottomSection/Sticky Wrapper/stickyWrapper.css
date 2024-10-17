@@ -42,7 +42,6 @@
     font-size: 8vw;
     line-height: 1em;
     letter-spacing: 0em;
-
     white-space: nowrap;
     overflow: hidden;
     font-weight: 400;
@@ -53,11 +52,17 @@
     flex-direction: row;
     padding: 64px;
     justify-content: space-between;
-
+    position: relative;
 }
 
 .dynamicIcon {
     width: 8vw;
     height: 8vw;
+    transition: transform 0.5s ease;
+
+}
+
+.contactCTA:hover .dynamicIcon{
+    transform: scale(0.6) translate(25px, -25px);
 
 }
