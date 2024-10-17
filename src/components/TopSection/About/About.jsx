@@ -4,7 +4,7 @@ import { AboutGrid } from "./AboutGrid/AboutGrid";
 
 export const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="target">
         < Numbers />
         < AboutGrid />
     </div>
